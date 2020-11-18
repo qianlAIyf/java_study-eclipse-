@@ -57,3 +57,13 @@ public class StringTest {
 		System.out.format(Locale.CHINA, "%-10.4f\n",(double)Math.PI);
 	}
 }
+
+class String1 {
+	char [] a = {'1', '2', '3'};
+	String string;
+
+	public String1() {
+		// TODO Auto-generated constructor stub
+		string = new String(a, 0, 3);
+	}
+}
